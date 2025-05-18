@@ -1,0 +1,536 @@
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateY(-30px);
+    animation-timing-function: ease-out;
+  }
+}
+#root {
+  width: 100vw;
+  /* margin: .2em; */
+  text-align: center;
+  height: 9999vh;
+  font-family: "Glass Antiquaa";
+}
+.fontdiner-swanky-regular {
+  font-family: "Fontdiner Swanky", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(56, 56, 100);
+}
+
+.glass-antiqua-regular {
+  font-family: "Glass Antiqua", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.mainLogo {
+  height: 50px;
+  width: auto;
+}
+.asta{
+   padding: 2em;
+   /* background-image: url('https://images.photowall.com/products/64791/brick-wall-graffiti-gray.jpg?h=699&q=85'); */
+   background-size: fill;
+   font-family:"Glass Antiqua";
+   font-size:19px;
+    
+}
+.navTab{
+  margin-top:2%;
+}
+.navContainer {
+  border: 0.2px solid white;
+  /* height: 90px; */
+  /* position:fixed; */
+  padding: 1em;
+}
+.navTop {
+  /* border:.2px solid white; */
+  /* height:50%; */
+  /* display: flex; */
+  justify-content: space-around;
+}
+.navBottom {
+  border: 0.2px solid grey;
+  display: flex;
+  /* height:50%; */
+  margin: 10px;
+  padding: 8px;
+}
+.left {
+  width: 60%;
+}
+.right {
+  border:solid peru;
+  display: flex;
+  width: 40%;
+  padding-top:6%;
+  justify-content: space-evenly;
+}
+.cart,
+.profile {
+  height: 25px;
+  width: 25px;
+  /* padding-top:8px; */
+}
+.splashTop {
+  width: 100%;
+}
+.mainSplashContainer {
+  /* border: 0.2px solid black; */
+  /* height:50vh; */
+}
+.workerContainer {
+  border: 0.2px solid black;
+  margin: 1em;
+  color: black;
+  font-family: "Glass Antiqua";
+  background-image: url("https://t4.ftcdn.net/jpg/01/67/63/19/360_F_167631939_r5TmpQHvONrQoJdYPTgSQ4zBxc6xP6f7.jpg");
+  background-size: cover;
+  font-size: 21px;
+  padding: 8px;
+}
+.workerContainer:hover {
+  border: 0.2px solid black;
+  margin: 1em;
+  padding: 8px;
+  background-image: url("https://c0.wallpaperflare.com/preview/13/1020/59/vintage-old-texture-faded.jpg");
+  background-size: cover;
+  transition: 8s;
+}
+.titleSeq {
+  display: flex;
+  margin: 2em;
+  justify-content: space-around;
+}
+.topic {
+  width: 20%;
+}
+.wxpScreen {
+  border: 0.2px solid grey;
+  margin: 1em;
+  /* height:65vh; */
+}
+.focusMain {
+  border: 0.2px solid grey;
+  margin: 1em;
+  /* height:44vh; */
+  display: flex;
+  justify-content: space-around;
+}
+.focusContainer {
+  /* border: .2px solid grey; */
+  margin-top:15%;
+  height:33%;
+}
+.focusContainer2 {
+  /* border: .2px solid grey; */
+  margin-top:5%;
+  height:20%;
+}
+.globalIcon {
+  /* border:solid black; */
+  width: 40px;
+  height: 40px;
+  margin: 1em;
+}
+.globalIcon2 {
+  /* border:solid black; */
+  width: 40px;
+  height: 40px;
+}
+.focusStage {
+  border: solid grey;
+  margin:10px;
+  width: 80%;
+}
+.focusScreen {
+  border: solid black;
+  margin: 2em;
+  height: 35vh;
+}
+.wxpImg {
+  width: 100%;
+}
+.sectioner {
+  /* border:solid black; */
+  display: flex;
+}
+.contentBox {
+  width: 80%;
+  padding: 5px;
+  font-size:15px;
+}
+.optionsBtn{
+  display:flex;
+  justify-content: space-evenly;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+  margin: 1em;
+}
+.watchContainer {
+  border: .2px solid black;
+  background-color: papayawhip;
+  /* height: 55vh; */
+  margin: 1em;
+  display: flex;
+}
+.playListMain {
+  border: solid grey;
+  width: 70%;
+}
+.medeah {
+  border: solid navy;
+  width: 30%;
+  margin: 1em;
+}
+.bxFood{
+  display:flex;
+  justify-content: space-around;
+}
+.drowzi{
+  margin:1em;
+}
+.conn_tent {
+  border: solid grey;
+  margin-top: 20%;
+}
+.paint {
+  width: 100%;
+}
+.iframeToggla {
+  border: solid peru;
+  background-color:burlywood ;
+  height: 30px;
+  margin: 10px;
+  border-radius: 3px;
+}
+.DisplayInfo {
+  /* border: solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1em;
+  margin-top:15%;
+  font-size:13px;
+  /* height:45px; */
+  align-items: center;
+}
+.twista{
+  display: flex;
+  justify-content: space-between;
+}
+
+.displaySnippet {
+  font-family: "Fontdiner Swanky";
+  font-size: 16px;
+  color: black;
+}
+.displaySnippet:hover {
+  font-family: "Fontdiner Swanky";
+  font-size: 16px;
+  color: salmon;
+}
+.icon2 {
+  /* border: solid black; */
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+.crayonBox {
+  border: 0.2px solid grey;
+  margin: 2em;
+  padding:8px;
+  /* height: 25vh; */
+}
+.sciContainer {
+  /* border: 0.2px solid red; */
+  /* height: 24vh; */
+  margin: 2em;
+  padding:8px;
+}
+.parentMajor {
+  border: solid black;
+  /* height: 24vh; */
+  margin: 2em;
+  padding:8px;
+}
+.showMain {
+  border: solid green;
+}
+.mhLogo{
+  width:80px;
+}
+.mhServ{
+  text-align: right;
+}
+.navClock{
+  /* border:solid blue; */
+}
+.navHand{
+  display:flex;
+  justify-content: space-evenly;
+}
+.nhand{
+  border: .2px solid black;
+  width:33%;
+  margin:8px;
+  font-size:12px;
+}
+.hiddenNav{
+  border: .2px solid peru;
+}
+.openSesame{
+  border:solid black;
+  display:flex;
+}
+.textLeft{
+  border:solid grey;
+  background-image:url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d2c21596350173.5eac3c944812a.gif');
+  
+  width:60%;
+}
+canvas{
+  width:80%;
+  height:100%;
+}
+.boardMaster{
+  width:100%;
+border:solid black;
+background-image:url('https://c8.alamy.com/comp/FHKBBP/new-york-city-5-boroughs-map-FHKBBP.jpg');
+background-size: cover;
+}
+.masterAdmin{
+  
+  display: flex;
+}
+.bookmark{
+  font-size:48px;
+  text-align:right;
+  opacity:.3;
+  font-family: Fontdiner Swanky;
+  animation: bounce 1s 13;
+  color:peru;
+}
+.bookShelf{
+  border:solid brown;
+  margin:2em;
+  /* height:44vh; */
+}
+.bookHolder{
+  border:.2px solid black;
+  /* height:182px; */
+  margin:1em;
+  display:flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+.bookCase{
+  border:.2px solid red;
+  width:200px;
+  background-color:black;
+  color:white;
+  margin:1em;
+}
+.book{
+  border:.2px solid green;
+  width: 100%;
+  /* height:210px; */
+}
+.bkTitle{
+
+}
+.bkCover{
+  width:100%;
+  height:100%;
+}
+.fancy{
+  font-family: 'Fontdiner Swanky';
+
+}
+.currentIter{
+  border: .2px solid peru;
+  margin:1em;
+  /* height:30vh; */
+
+}
+.mceeContainer{
+  border:solid  peru;
+  /* height:64vh; */
+  margin:1em;
+}.topMc{
+  border:solid black; width:50%;
+  width:100%;
+  /* height:30%; */
+  display:flex; 
+}
+.pacBtn{
+  border:solid green;
+
+}.synopp{
+  margin:1em;
+  font-size:14px;
+}
+.pacTitle{
+  margin:.2em;
+  font-family: "Fontdiner Swanky";
+}
+.yatch{
+  /* border:solid green; */
+  width:50%;
+}
+.suckaMc{
+  height:400px;
+  display:flex;
+
+}
+.drake{
+  border:solid salmon;
+  width:50%;
+  /* height:100%; */
+  margin:2em;
+}
+.posterBox{
+  width:33%;
+  margin:.4em;
+  height:100%;
+  border: .2px solid black;
+}
+.posterImg{
+  border:solid blue;
+  width:100%;
+}
+.posterTitle{
+  border:solid black;
+}
+/* ---------------- */
+
+
+
+/* ====================== */
+.gameGod{
+  border:solid peru;
+  /* height:88vh; */
+  margin:2em;
+  background-color:black;
+  border-radius:5px;
+}
+.upperScreen{
+  border: 6px double red;;
+  height:125px;
+}
+.cartridge{
+  border:solid white;
+  height:250px;
+  width:180px;
+
+}
+/* ====================== */
+.rpsScoreBoard{
+  border:solid black;
+  /* height:15vh; */
+  background-color:navy;
+  color:white;
+
+}
+.sBox{
+  border:solid white;
+  margin:1em;
+  display:flex;
+  justify-content: space-evenly;
+
+}
+.rpsGameBoard{
+  border:solid black;
+  margin:1em;
+  height:58vh;
+  display:flex;
+  background-color:burlywood;
+}
+.titlerps{
+  font-family: "Fontdiner Swanky";
+
+}
+.rpsOptionBox{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.p1Side{
+  border:solid blue;
+  width:50%;
+}
+.p2side{
+  border:solid red;
+  width:50%;
+}
+.rock{
+  height:30px;
+}
+.liz{
+  height:80px;
+}
+.paper{
+  height:30px;
+}
+.spock{
+  height:100px;
+}
+.sza{
+  height:50px;
+}
+
+@media screen and (max-width: 1880px) {
+  body {
+    background-color: white;
+    color: grey;
+  }
+  .mainLeft{
+    width:10%;
+  }
+  .mainMid{
+    width:80%;
+  }
+  .mainRight{
+    width:10%;
+  }
+  
+}
+/* ---------------------- */
+@media screen and (max-width: 1280px) {
+  body {
+    background-color: white;
+    color: black;
+  }
+  .mainLeft{
+    width:0%;
+  }
+  .mainMid{
+    width:100%;
+  }
+  .mainRight{
+    width:0%;
+  }
+}
+/* ---------------------- */
+@media screen and (max-width: 680px) {
+  body {
+    background-color: white;
+    color: black;
+  }
+  .mainLeft{
+    width:0%;
+  }
+  .mainMid{
+    width:100%;
+  }
+  .mainRight{
+    width:0%;
+  }
+}
+/* ---------------------- */
