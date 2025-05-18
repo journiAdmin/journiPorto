@@ -89,7 +89,7 @@
   background-image: url("https://t4.ftcdn.net/jpg/01/67/63/19/360_F_167631939_r5TmpQHvONrQoJdYPTgSQ4zBxc6xP6f7.jpg");
   background-size: cover;
   font-size: 21px;
-  padding: 8px;
+  padding: 7px;
 }
 .workerContainer:hover {
   border: 0.2px solid black;
