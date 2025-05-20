@@ -1,7 +1,7 @@
 import { React, useState } from "react";
 import Deadbeat from "./Deadbeat";
 import Sci_co from "./Sci_co";
-import N2ro from "./n2ro";
+import N2ro from "./N2ro";
 import JobTalk from "../widgets/JobTalk";
 
 function GlobalFocus2() {

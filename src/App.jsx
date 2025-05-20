@@ -56,7 +56,7 @@ function App() {
 
           <h1 className="bookmark">Gaming Hub</h1>
          <Gaming />
-          <RkPapSz />
+          
           
         </div>
         <div className="mainRight"></div>
